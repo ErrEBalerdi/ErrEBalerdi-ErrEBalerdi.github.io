@@ -161,3 +161,76 @@ section{
         height: auto;
 
     }
+      /* Para pantallas más pequeñas */
+ 
+  @media (max-width: 768px) {
+    /* Estilos para pantallas de hasta 768px */
+    body {
+      width: 48%;
+    }}
+  @media (max-width: 480px) {
+    /* Estilos para pantallas de hasta 768px */
+    body {
+      width: 48%;
+    }}
+    @media (max-width: 768px) {
+      /* Estilos para pantallas de hasta 768px */
+      .tituloFotter{
+        font-size: 650%;
+        margin-bottom: 2vh;
+      }}
+    @media (max-width: 480px) {
+      /* Estilos para pantallas de hasta 768px */
+      .tituloFotter {
+        font-size: 650%;
+        margin-bottom: 2vh;
+      }}
+      @media (max-width: 768px) {
+        /* Estilos para pantallas de hasta 768px */
+        .botonfut  {
+          width: 30%;
+        }}
+      @media (max-width: 480px) {
+        /* Estilos para pantallas de hasta 768px */
+        .botonfut {
+          width: 30%;
+        }}
+        @media (max-width: 768px) {
+          /* Estilos para pantallas de hasta 768px */
+          #imgLogos  {
+            width: 60%;
+          }}
+        @media (max-width: 480px) {
+          /* Estilos para pantallas de hasta 768px */
+          #imgLogos {
+            width: 60%;
+          }}
+          @media (max-width: 768px) {
+            .button-container-1, #work, .mas {
+                width: 80%;
+                font-size: small;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .button-container-1, #work, .mas {
+                width: 80%;
+                font-size: x-small; /* Adjust font size as needed */
+            }
+        }
+            @media (max-width: 768px) {
+              /* Estilos para pantallas de hasta 768px */
+              #work , .mas  {
+                width: 80%;
+                font-size: small;
+                
+              }}
+            @media (max-width: 480px) {
+              /* Estilos para pantallas de hasta 768px */
+              #work, .mas  {
+                width: 80%;
+                font-size: small;
+                
+              }}
+              
+  
