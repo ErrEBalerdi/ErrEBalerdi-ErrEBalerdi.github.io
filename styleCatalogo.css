@@ -1,0 +1,151 @@
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:auto;
+    height: auto;
+    box-shadow: 0 0 10px rgba(41, 35, 35, 0.555);
+    background-color: rgba(45,160,214,255);
+    background-image: url(img/Gemini_Generated_Image_33ejo233ejo233ej.jfif);
+   background-blend-mode: multiply; 
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  
+  .producto {
+    width: 23%; /* 4 productos por línea, ajustando para márgenes */
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 2vh;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-color: #333;
+    border: 2px;
+
+  }
+  .producto:hover{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    
+    text-decoration: solid;
+    font-size: larger;
+    width: auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+}
+
+  /* Para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .producto {
+      width: 48%; /* 2 productos por línea */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .producto {
+      width: 100%; /* 1 producto por línea */
+    }
+  }
+  .paginacion ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .paginacion li {
+    margin: 0 5px;
+  }
+  
+  .paginacion a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .paginacion a.active {
+    background-color: #333;
+    color: #fff;
+  }
+
+  #Remera{
+    width: 40vh;
+    height: auto;
+    
+  }
+
+.dobleImagen{
+    transition: all 0.5s ease-in-out;
+}
+.dobleImagen:hover{
+    content: url('img/RemerasCatalogo/LoveKeepRealfrente.png');
+}
+.dobleImagenhdppintura{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenhdppintura:hover{
+  content: url('img/RemerasCatalogo/hdp\ pintura\ adelante.png');
+}
+.dobleImagentravis{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagentravis:hover{
+  content: url('img/RemerasCatalogo/travisAdelante.png');
+}
+.dobleImagenhdp{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenhdp:hover{
+  content: url('img/RemerasCatalogo/HDP\ blanca.png');
+}
+.dobleImagenPeposa{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenPeposa:hover{
+  content: url('img/RemerasCatalogo/peposaAdelante.png');
+}
+.dobleImagenfuck{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenfuck:hover{
+  content: url('img/RemerasCatalogo/fuck\ adelante.png');
+}
+.dobleImagencolo{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagencolo:hover{
+  content: url('img/RemerasCatalogo/colo\ blooded\ adelante.png');
+}
+.dobleImagenFirma{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenFirma:hover{
+  content: url('img/RemerasCatalogo/HDP\ firma\ gris.png');
+}
+.minimalist{
+  transition: all 0.5s ease-in-out;
+}
+.minimalist:hover{
+  content: url('img/RemerasCatalogo/TupacCarachica.png');
+}
+.tituloYdescripcion{
+  margin-bottom: 1vh;
+ position: relative;
+ display: flex;
+ justify-content: center;
+
+ flex-direction: column;
+
+    
+}

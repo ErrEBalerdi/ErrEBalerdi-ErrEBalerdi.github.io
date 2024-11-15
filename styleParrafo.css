@@ -1,0 +1,51 @@
+.textoEntero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width:auto;
+    height: auto;
+    box-shadow: 0 0 10px rgba(41, 35, 35, 0.555);
+    background-color: rgba(45,160,214,255);
+    background-image: url(img/Gemini_Generated_Image_33ejo233ejo233ej.jfif);
+   background-blend-mode: multiply; 
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+    text-align: justify;
+    text-decoration: solid;
+    font-size: larger;
+    width: auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    text-align: justify;
+    text-decoration: solid;
+    font-size: larger;
+    width: auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+}
+.titulo1{
+    margin: 2vh;
+    text-align: justify;
+    text-decoration: solid;
+    font-size: larger;
+    width: auto;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+}
