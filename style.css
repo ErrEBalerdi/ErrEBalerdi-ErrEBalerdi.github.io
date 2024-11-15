@@ -97,7 +97,7 @@ section{
   }
   section img:hover{
     cursor: crosshair;
-    width: 300px;
+    width: 200px;
     opacity: 1;
     filter: contrast(120%);
   }
@@ -232,5 +232,17 @@ section{
                 font-size: small;
                 
               }}
+              @media (max-width: 768px) {
+                /* Estilos para pantallas de hasta 768px */
+                .frace01{
+                  font-size: 100%;
+                  
+                }}
+              @media (max-width: 480px) {
+                /* Estilos para pantallas de hasta 768px */
+                .frace01 {
+                  font-size: 100%;
+                  
+                }}
               
   
