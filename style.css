@@ -132,7 +132,14 @@ section{
     font-style: normal;
     color: #fff;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);}
-    
+  .tituloInicio{
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+   font-size: 20vh;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  } 
 .palabrasFotter{
     font-family: "Bebas Neue", sans-serif;
     font-size: 2.5vh;
@@ -175,6 +182,18 @@ section{
         font-size: 650%;
         margin-bottom: 2vh;
       }}
+      @media (max-width: 768px) {
+        /* Estilos para pantallas de hasta 768px */
+        .tituloInicio{
+          font-size: 650%;
+          margin-bottom: 2vh;
+        }}
+      @media (max-width: 480px) {
+        /* Estilos para pantallas de hasta 768px */
+        .tituloInicio {
+          font-size: 650%;
+          margin-bottom: 2vh;
+        }}
       @media (max-width: 768px) {
         /* Estilos para pantallas de hasta 768px */
         .botonfut  {
