@@ -75,12 +75,13 @@ body .btn-bg.bg-1 .btn-1 button:active {
   .BotonesSelecionados a {
     text-decoration: none;
   }
+  
   @media (max-width: 768px) {
     /* Estilos para pantallas de hasta 768px */
     .BotonesSelecionados {
         
         margin: 1vh;
-        font-size:1vh;
+        font-size:small;
         
     }}
   @media (max-width: 480px) {
@@ -89,8 +90,23 @@ body .btn-bg.bg-1 .btn-1 button:active {
 
        margin-left: 0;
         margin: 1vh;
-        font-size:1vh;
+        font-size:small;
+        
     }}
+    @media (max-width: 768px) {
+      /* Estilos para pantallas de hasta 768px */
+      .btn-bg {
+          
+         width:10px ;
+          
+      }}
+    @media (max-width: 480px) {
+      /* Estilos para pantallas de hasta 768px */
+      .btn-bg {
+  
+         width: 10px;
+          
+      }}
    
   @-moz-keyframes cloud-animation {
     100% {
