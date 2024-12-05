@@ -80,7 +80,7 @@ body .btn-bg.bg-1 .btn-1 button:active {
     /* Estilos para pantallas de hasta 768px */
     .BotonesSelecionados {
         
-        margin: 1vh;
+        margin: 2px;
         font-size:small;
         
     }}
@@ -89,7 +89,7 @@ body .btn-bg.bg-1 .btn-1 button:active {
     .BotonesSelecionados {
 
        margin-left: 0;
-        margin: 1vh;
+        margin: 2px;
         font-size:small;
         
     }}
@@ -97,14 +97,14 @@ body .btn-bg.bg-1 .btn-1 button:active {
       /* Estilos para pantallas de hasta 768px */
       .btn-bg {
           
-         width:5px ;
+         width:8px ;
           
       }}
     @media (max-width: 480px) {
       /* Estilos para pantallas de hasta 768px */
       .btn-bg {
   
-         width: 5px;
+         width: 8px;
           
       }}
    
