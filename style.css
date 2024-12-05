@@ -204,7 +204,7 @@ section{
       @media (max-width: 480px) {
         /* Estilos para pantallas de hasta 768px */
         .tituloInicio {
-          font-size: 450%;
+          font-size: 250%;
           margin-bottom: 2vh;
         }}
       @media (max-width: 768px) {
