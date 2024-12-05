@@ -198,13 +198,13 @@ section{
       @media (max-width: 768px) {
         /* Estilos para pantallas de hasta 768px */
         .tituloInicio{
-          font-size: 300%;
+          font-size: 200%;
           margin-bottom: 2vh;
         }}
       @media (max-width: 480px) {
         /* Estilos para pantallas de hasta 768px */
         .tituloInicio {
-          font-size: 650%;
+          font-size: 450%;
           margin-bottom: 2vh;
         }}
       @media (max-width: 768px) {
