@@ -95,14 +95,14 @@ body .btn-bg.bg-1 .btn-1 button:active {
     }}
     @media (max-width: 768px) {
       /* Estilos para pantallas de hasta 768px */
-      .btn-bg {
+      .btn .btn-1 {
           
          width:8px ;
           
       }}
     @media (max-width: 480px) {
       /* Estilos para pantallas de hasta 768px */
-      .btn-bg {
+      .btn .btn-1{
   
          width: 8px;
           
