@@ -81,34 +81,19 @@ body .btn-bg.bg-1 .btn-1 button:active {
     .BotonesSelecionados {
         
         margin: 2px;
-        font-size:small;
+        font-size: 10px;;
         
     }}
   @media (max-width: 480px) {
     /* Estilos para pantallas de hasta 768px */
     .BotonesSelecionados {
 
-       margin-left: 0;
+       
         margin: 2px;
-        font-size:small;
+        font-size: 10px;;
         
     }}
-    @media (max-width: 768px) {
-      /* Estilos para pantallas de hasta 768px */
-      .btn .btn-1 {
-          
-        display: flex;
-
-        font-size: 2px;
-      }}
-    @media (max-width: 480px) {
-      /* Estilos para pantallas de hasta 768px */
-      .btn .btn-1{
-  
-     display:flex;
-
-     font-size: 2px;
-      }}
+    
    
   @-moz-keyframes cloud-animation {
     100% {
