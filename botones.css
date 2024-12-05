@@ -98,8 +98,8 @@ body .btn-bg.bg-1 .btn-1 button:active {
       .btn .btn-1 {
           
         display: flex;
-width: 3vh;
-          
+
+        font-size: 2px;
       }}
     @media (max-width: 480px) {
       /* Estilos para pantallas de hasta 768px */
@@ -107,7 +107,7 @@ width: 3vh;
   
      display:flex;
 
-     width: 3vh;   
+     font-size: 2px;
       }}
    
   @-moz-keyframes cloud-animation {
