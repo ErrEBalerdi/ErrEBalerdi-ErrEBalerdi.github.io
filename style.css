@@ -22,7 +22,9 @@ body {
 .Precent{
     height: 24vh;
     display: flex;
-   
+   justify-content: center;
+   align-items: center;
+   padding: 2vh;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .franja{ 
@@ -126,37 +128,55 @@ section{
   margin-bottom: 4%;
   }
   .tituloFotter{
-    position: relative;
     font-family: "Bebas Neue", sans-serif;
-   font-size: 20vh;
+   font-size: 10vh;
     font-style: normal;
     color: #fff;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);}
-    
-.palabrasFotter{
+  .tituloInicio{
+   
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5vh;
+   font-size: 10vh;
     font-style: normal;
     color: #fff;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);}  
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  } 
+.palabrasFotter{  
+    font-size: 5.5vh;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+    text-align: justify;
+    text-decoration: solid;
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;}  
   .botonfut {
         border: none;
         padding: 5px;
+        
         cursor: pointer;
         background-color: transparent;
        
     }
     #imgLogos{
-        width: 200px;
+      
+        width: 150px;
         height: auto;
+        margin-left: 2vh;
+        margin-right: 2vh;
 
     }
+ 
       /* Para pantallas más pequeñas */
  
   @media (max-width: 768px) {
     /* Estilos para pantallas de hasta 768px */
     body {
-      width: 48%;
+      width: 38%;
     }}
   @media (max-width: 480px) {
     /* Estilos para pantallas de hasta 768px */
@@ -166,15 +186,27 @@ section{
     @media (max-width: 768px) {
       /* Estilos para pantallas de hasta 768px */
       .tituloFotter{
-        font-size: 650%;
-        margin-bottom: 2vh;
+        font-size: 550%;
+       
       }}
     @media (max-width: 480px) {
       /* Estilos para pantallas de hasta 768px */
       .tituloFotter {
         font-size: 650%;
-        margin-bottom: 2vh;
+        
       }}
+      @media (max-width: 768px) {
+        /* Estilos para pantallas de hasta 768px */
+        .tituloInicio{
+          font-size: 300%;
+          margin-bottom: 2vh;
+        }}
+      @media (max-width: 480px) {
+        /* Estilos para pantallas de hasta 768px */
+        .tituloInicio {
+          font-size: 650%;
+          margin-bottom: 2vh;
+        }}
       @media (max-width: 768px) {
         /* Estilos para pantallas de hasta 768px */
         .botonfut  {
@@ -197,7 +229,7 @@ section{
           }}
           @media (max-width: 768px) {
             .button-container-1, #work, .mas {
-                width: 80%;
+                width: 10%;
                 font-size: small;
             }
         }
@@ -234,5 +266,17 @@ section{
                   font-size: 100%;
                   
                 }}
+                @media (max-width: 768px) {
+                  /* Estilos para pantallas de hasta 768px */
+                  .Precent{
+                    flex-direction: column;
+                    
+                  }}
+                @media (max-width: 480px) {
+                  /* Estilos para pantallas de hasta 768px */
+                  .Precent {
+                    flex-direction: column;
+                    
+                  }}
               
   

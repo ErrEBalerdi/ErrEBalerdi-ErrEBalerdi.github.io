@@ -5,8 +5,8 @@
     width:auto;
     height: auto;
     box-shadow: 0 0 10px rgba(41, 35, 35, 0.555);
-    background-color: rgba(45,160,214,255);
-    background-image: url(img/Gemini_Generated_Image_33ejo233ejo233ej.jfif);
+    background-color: #8ad0f0;
+
    background-blend-mode: multiply; 
    background-size: cover;
   background-position: center;
@@ -14,10 +14,10 @@
   }
   
   .producto {
-    width: 23%; /* 4 productos por línea, ajustando para márgenes */
+    width: 19.5%; /* 4 productos por línea, ajustando para márgenes */
     margin-bottom: 20px;
     text-align: center;
-    margin: 2vh;
+    margin: 1vh;
     border-radius: 2%;
     display: flex;
     justify-content: center;
