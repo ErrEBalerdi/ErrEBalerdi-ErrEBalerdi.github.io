@@ -162,6 +162,11 @@ section{
         background-color: transparent;
        
     }
+    .botonesfut{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     #imgLogos{
       
         width: 150px;
