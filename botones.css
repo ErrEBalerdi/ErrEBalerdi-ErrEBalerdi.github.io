@@ -97,15 +97,17 @@ body .btn-bg.bg-1 .btn-1 button:active {
       /* Estilos para pantallas de hasta 768px */
       .btn .btn-1 {
           
-         width:8px ;
+        display: flex;
+width: 3vh;
           
       }}
     @media (max-width: 480px) {
       /* Estilos para pantallas de hasta 768px */
       .btn .btn-1{
   
-         width: 8px;
-          
+     display:flex;
+
+     width: 3vh;   
       }}
    
   @-moz-keyframes cloud-animation {
