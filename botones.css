@@ -81,6 +81,7 @@ body .btn-bg.bg-1 .btn-1 button:active {
         
         margin: 1vh;
         font-size:small;
+        width: 80%;
     }}
   @media (max-width: 480px) {
     /* Estilos para pantallas de hasta 768px */
@@ -89,6 +90,7 @@ body .btn-bg.bg-1 .btn-1 button:active {
        margin-left: 0;
         margin: 1vh;
         font-size:small;
+        width: 80%;
     }}
    
   @-moz-keyframes cloud-animation {
