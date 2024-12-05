@@ -139,6 +139,13 @@
 .minimalist:hover{
   content: url('img/RemerasCatalogo/TupacCarachica.png');
 }
+.dobleImagenSUCCESt{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenSUCCES:hover{
+  content: url('https://i.imgur.com/QEx9oU5.png');
+}
+
 .tituloYdescripcion{
   margin-bottom: 1vh;
  position: relative;
