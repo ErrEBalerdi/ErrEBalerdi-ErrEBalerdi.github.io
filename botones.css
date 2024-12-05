@@ -97,14 +97,14 @@ body .btn-bg.bg-1 .btn-1 button:active {
       /* Estilos para pantallas de hasta 768px */
       .btn-bg {
           
-         width:10px ;
+         width:5px ;
           
       }}
     @media (max-width: 480px) {
       /* Estilos para pantallas de hasta 768px */
       .btn-bg {
   
-         width: 10px;
+         width: 5px;
           
       }}
    
