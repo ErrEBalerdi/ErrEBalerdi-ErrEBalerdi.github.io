@@ -129,7 +129,7 @@ section{
   }
   .tituloFotter{
     font-family: "Bebas Neue", sans-serif;
-   font-size: 20vh;
+   font-size: 10vh;
     font-style: normal;
     color: #fff;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);}
@@ -157,15 +157,20 @@ section{
   .botonfut {
         border: none;
         padding: 5px;
+        
         cursor: pointer;
         background-color: transparent;
        
     }
     #imgLogos{
-        width: 200px;
+      
+        width: 150px;
         height: auto;
+        margin-left: 2vh;
+        margin-right: 2vh;
 
     }
+ 
       /* Para pantallas más pequeñas */
  
   @media (max-width: 768px) {
