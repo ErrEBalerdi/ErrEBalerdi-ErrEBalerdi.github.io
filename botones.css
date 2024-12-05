@@ -82,7 +82,7 @@ body .btn-bg.bg-1 .btn-1 button:active {
         
         margin: 2px;
         font-size: 10px;;
-        padding: 0.8rem 1.6rem 0.8rem 1.5rem;
+        padding: 0.8rem 1.5rem 0.8rem 1.5rem;
     }}
   @media (max-width: 480px) {
     /* Estilos para pantallas de hasta 768px */
@@ -91,7 +91,7 @@ body .btn-bg.bg-1 .btn-1 button:active {
        
         margin: 2px;
         font-size: 10px;;
-        padding: 0.8rem 1.6rem 0.8rem 1.5rem;
+        padding: 0.8rem 1.5rem 0.8rem 1.5rem;
     }}
     
    
