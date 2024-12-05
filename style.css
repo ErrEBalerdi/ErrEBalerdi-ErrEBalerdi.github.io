@@ -215,7 +215,7 @@ section{
       @media (max-width: 480px) {
         /* Estilos para pantallas de hasta 768px */
         .botonfut {
-          width: 30%;
+          width: 10%;
         }}
         @media (max-width: 768px) {
           /* Estilos para pantallas de hasta 768px */
