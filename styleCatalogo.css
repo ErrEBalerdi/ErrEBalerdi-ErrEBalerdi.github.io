@@ -139,12 +139,51 @@
 .minimalist:hover{
   content: url('img/RemerasCatalogo/TupacCarachica.png');
 }
-.dobleImagenSUCCESt{
+.dobleImagenBS23{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenBS23:hover{
+  content: url('https://i.imgur.com/bNQT6Mi.png');
+}
+.dobleImagenDaredevil{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenDaredevil:hover{
+  content: url('https://i.imgur.com/uObnxd6.png');
+}
+.dobleImagenDecadent{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenDecadent:hover{
+  content: url('https://i.imgur.com/HE58JXp.png');
+}
+.dobleImagenDiscipline{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenDiscipline:hover{
+  content: url('https://i.imgur.com/Yl2TDhc.png');
+}
+.dobleImagenNXTSTREET{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenNXTSTREET:hover{
+  content: url('https://i.imgur.com/paqyGgj.png');
+}
+.dobleImagenBrooklyn{
+  transition: all 0.5s ease-in-out;
+}
+.dobleImagenBrooklyn:hover{
+  content: url('https://i.imgur.com/PcC7lSn.png');
+}
+.dobleImagenSUCCES{
   transition: all 0.5s ease-in-out;
 }
 .dobleImagenSUCCES:hover{
-  content: url('https://i.imgur.com/QEx9oU5.png');
+  content: url('https://i.imgur.com/fs82fSY.png');
 }
+
+
+
 
 .tituloYdescripcion{
   margin-bottom: 1vh;
