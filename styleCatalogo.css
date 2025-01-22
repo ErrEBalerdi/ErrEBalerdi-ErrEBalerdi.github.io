@@ -1,7 +1,7 @@
 .catalogo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width:auto;
     height: auto;
     box-shadow: 0 0 10px rgba(41, 35, 35, 0.555);
@@ -181,7 +181,18 @@
 .dobleImagenSUCCES:hover{
   content: url('https://i.imgur.com/fs82fSY.png');
 }
-
+.valkerremeraByN{
+  transition: all 0.5s ease-in-out;
+}
+.valkerremeraByN:hover{
+  content: url('https://i.imgur.com/t7QarSW.png');
+}
+.buzoDeVerano{
+  transition: all 0.5s ease-in-out;
+}
+.buzoDeVerano:hover{
+  content: url('https://i.imgur.com/0GttGKY.png');
+}
 
 
 
